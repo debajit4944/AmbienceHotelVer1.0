@@ -61,11 +61,15 @@ body {
 }
 
 #showcase .carousel-item {
-  height: 650px;
+  /* height: 650px; */
+  height: 100vh;
 }
 
 .carousel-caption{
-  bottom:20%;
+  /* bottom:20%; */
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
 }
 .carousel-image-1 {
   background: url("../img/slider-img-1.jpg");
@@ -131,9 +135,10 @@ body {
 
 #page-header {
   height: 200px;
-  background: url("../img/sliderimage01.jpg");
+  background: url("../img/image1.jpg");
   background-position: 0 -360px;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
@@ -172,6 +177,10 @@ body {
   font-size: larger;
 }
 
+#footer-call-to-action{
+  background:#4E5652;
+  color: #FFCC00;
+}
 /*Updated*/
 section#contact {
   background-image: url("../img/bg-map.svg");
