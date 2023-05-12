@@ -114,7 +114,16 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone Number" name="phoneNumber" id="phoneNumber">
+                      <input type="text" class="form-control" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" required>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <select name="Query_For_Property" id="Query_For_Property" class="form-control form-select form-select-lg mb-3" aria-label=".form-select-lg example" required>
+                        <option value="">Choose Property</option>
+                        <option value="Ambience_Model_Colony">Ambience Model Colony</option>
+                        <option value="Ambience_Wakad">Ambience Wakad</option>
+                      </select>
                     </div>
                   </div>
                   <div class="col-md-12">Choose one or more options:</div>
@@ -147,11 +156,11 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="row mt-3">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Message" name="message" id="message"></textarea>
+                      <textarea class="form-control" placeholder="Message" name="message" id="message" required></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
