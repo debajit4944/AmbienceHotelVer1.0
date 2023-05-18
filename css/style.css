@@ -72,7 +72,7 @@ body {
   bottom: initial;
 }
 .carousel-image-1 {
-  background: url("../img/slider-img-1.jpg");
+  background: url("../img/slider_new_02.jpg");
   background-size: cover;
   height:100vh;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
 }
 
 .carousel-image-2 {
-  background: url("../img/slider-img-4.jpg");
+  background: url("../img/slider_new_03.png");
   background-size: cover;
   height:100vh;
   background-repeat: no-repeat;
@@ -88,7 +88,7 @@ body {
 }
 
 .carousel-image-3 {
-  background: url("../img/slider-img-3.jpg");
+  background: url("../img/slider_new_01.png");
   background-size: cover;
   height:100vh;
   background-repeat: no-repeat;
