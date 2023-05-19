@@ -3,12 +3,10 @@ body {
 }
 #navbar{
   /* background: linear-gradient(to bottom, #000000 0%, #006666 150%); */
-
   /* background: linear-gradient(to bottom, #000000 0%, #00cc00 220%); */
-
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #434343 0%, #000000 150%);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #434343 0%, #000000 150%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #231F12;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to bottom, #434343 0%, #000000 150%);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to bottom, #434343 0%, #000000 150%); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #showcase, #home-heading, #home-icons h4, #products-gallery h3,#gallery h1,#page-header h1,#about h1,#contact h3,#testimonials h2,#authors h1{
   font-family: 'Merriweather', serif;
@@ -37,9 +35,9 @@ body {
 }
 
 .navbar .nav-link {
-  font-size: medium;
-  font-weight: 400;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: small;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
@@ -74,23 +72,23 @@ body {
 .carousel-image-1 {
   background: url("../img/slider_new_02.jpg");
   background-size: cover;
-  height:100vh;
+  /* height:100vh; */
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .carousel-image-2 {
-  background: url("../img/slider_new_03.png");
+  background: url("../img/slider_new_01.png");
   background-size: cover;
-  height:100vh;
+  /* height:100vh; */
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .carousel-image-3 {
-  background: url("../img/slider_new_01.png");
+  background: url("../img/slider_new_03.png");
   background-size: cover;
-  height:100vh;
+  /* height:100vh; */
   background-repeat: no-repeat;
   background-position: center;
 }
